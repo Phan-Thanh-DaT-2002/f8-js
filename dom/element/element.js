@@ -17,3 +17,10 @@ var e = document.querySelectorAll('.h2')
 console.log(e)
 console.log(e[1])
 
+
+//class list prototype
+var helo = document.querySelector('.helo')
+  helo.classList.add('red', 'green', ' ...')// add 1 class vao trong 1 the
+  helo.classList.remove('red', 'green', '...')// remove 1 class vao trong 1 the
+  helo.classList.toggle('red', 'green', '...')// neu trong element co class thi xoa no con khong co thi them vaof
+  helo.classList.contains(' red')// kiem tra xem co class trong element hay k
